@@ -494,12 +494,12 @@ ul.slimmenu.collapsed li > ul {
 
 .home-text {
 	position:absolute;
-	width:960px;
+	width: 300px;;
 	left:50%;
-	margin-left:-480px;
+	margin-left:-150px;
 	top:50%;
 	margin-top:-150px;
-	height:300px;
+	height:500px;
 	overflow: hidden;
 	z-index:100;
 }
@@ -521,7 +521,7 @@ ul.slimmenu.collapsed li > ul {
 	font-size: 80px;
 	height: 100px;
 	text-align: center;
-	width: 16.6666667%;
+	width: 50%;
 	line-height:100px;
 }
 
@@ -532,7 +532,7 @@ ul.slimmenu.collapsed li > ul {
 	font-family: 'Lato', sans-serif;
 	line-height:100px;
 	position: relative;
-	color: hsla(0, 0%, 0%, 0.6);
+	color: #cd505f;
 	-webkit-transform-style: preserve-3d;
 	-ms-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -540,6 +540,16 @@ ul.slimmenu.collapsed li > ul {
 	-ms-perspective: 550px;
 	perspective: 550px;
 	z-index: 1;
+}
+
+.grid li .letter-w {
+	color: #5f94ab;
+}
+.grid li .letter-r {
+	color: rgb(135, 42, 126);
+}
+.grid li .letter-g {
+	color: rgb(85, 156, 141);
 }
 
 .grid li span:before,
@@ -558,12 +568,11 @@ ul.slimmenu.collapsed li > ul {
 
 .grid li span:before {
 	text-shadow: none;
-	color: hsla(0, 0%, 0%, 0.12);
+	color: rgba(0, 0, 0, 0.12);
 	line-height:inherit;
 }
 
 /* Colors */
-
 .ot-letter-left { background: rgba(40,40,40,.7); }
 .ot-letter-left span { text-shadow: 1px 4px 6px rgba(40,40,40,.6), 0 0 0 hsla(0, 0%, 0%, 0.4), 1px 4px 6px rgba(40,40,40,.6); }
 .ot-letter-left span:after { color: rgba(255,255,255,.9); }
@@ -1092,42 +1101,42 @@ left: 0;
 	opacity:.8;
 	-moz-animation:graphic-design 2s ease-out;
 	-webkit-animation:graphic-design 2s ease-out;
-	background-color: #d35400;
+	background-color: #cd505f;
 }
 .bar-prc2 {
 	width:85%;
 	opacity:.8; 
 	-moz-animation:graphic-design 2s ease-out;
 	-webkit-animation:graphic-design 2s ease-out;
-	background-color: #d35400;
+	background-color: #cd505f;
 }
 .bar-prc3 {
 	width:80%; 
 	opacity:.8;
 	-moz-animation:graphic-design 2s ease-out;
 	-webkit-animation:graphic-design 2s ease-out;
-	background-color: #d35400;
+	background-color: #cd505f;
 }
 .bar-prc4 {
 	width:68%; 
 	opacity:.8;
 	-moz-animation:graphic-design 2s ease-out;
 	-webkit-animation:graphic-design 2s ease-out;
-	background-color: #d35400;
+	background-color: #cd505f;
 }
 .bar-prc5 {
 	width:96%; 
 	opacity:.8;
 	-moz-animation:graphic-design 2s ease-out;
 	-webkit-animation:graphic-design 2s ease-out;
-	background-color: #d35400;
+	background-color: #cd505f;
 }
 .bar-prc6 {
 	width:93%; 
 	opacity:.8;
 	-moz-animation:graphic-design 2s ease-out;
 	-webkit-animation:graphic-design 2s ease-out;
-	background-color: #d35400;
+	background-color: #cd505f;
 }
 
 
@@ -1252,7 +1261,7 @@ left: 0;
 	font-size: 14px;
 	line-height: 14px;
 	width:18px;
-	color: #d35400; 
+	color: #cd505f; 
 	margin:0;
 	padding:0;
 }
@@ -1316,7 +1325,7 @@ left: 0;
 	font-size: 14px;
 	line-height: 14px;
 	width:18px;
-	color: #d35400; 
+	color: #cd505f; 
 	margin:0;
 	padding:0;
 	-webkit-transition : all 0.2s ease-out;
@@ -1369,7 +1378,7 @@ left: 0;
 	text-transform:uppercase;
 	font-size: 12px;
 	line-height:12px;
-	color:#d35400;
+	color:#cd505f;
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
@@ -1388,7 +1397,7 @@ left: 0;
 	border-radius:5px;
 	margin:0 auto;
 	text-align:center;
-	background:#d35400;
+	background:#cd505f;
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
     -o-transition: all 300ms linear;
@@ -1546,7 +1555,7 @@ left: 0;
 	height: 18px;
 	width:100%;
 	padding-bottom:20px;
-	color: #d35400; 
+	color: #cd505f; 
 	text-align:center;
 }
 
@@ -1680,7 +1689,7 @@ left: 0;
 	z-index:6;
 	left:0;
 	bottom:-60px;
-	background:#d35400;
+	background:#cd505f;
 	opacity:.9;
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
@@ -1700,7 +1709,7 @@ left: 0;
 }
 
 .current{
-	color:#d35400;
+	color:#cd505f;
 }
 
 #filter {
@@ -2147,7 +2156,7 @@ left: 0;
 	height: 18px;
 	width:100%;
 	padding-bottom:20px;
-	color: #d35400; 
+	color: #cd505f; 
 	text-align:center;
 }
 .detail  {
@@ -2201,7 +2210,7 @@ left: 0;
 		border:none;
 	}
 	.error {
-		color: #d35400;
+		color: #cd505f;
 		font: 16px/22px 'OpenSans-Light-webfont';
 		display: none;
 	}
